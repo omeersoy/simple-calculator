@@ -1,20 +1,29 @@
-# simple-calculator
-Python ile yazılmış dört işlemli basit bir hesap makinesi uygulaması.
-# Basit Hesap Makinesi Uygulaması (calculator.py)
+# 🧮 Basit Hesap Makinesi Uygulaması (Simple Calculator)
 
-def topla(a, b):
-    return a + b
+Bu depo, öğrenme amaçlı oluşturulmuş, temel dört aritmetik işlemi gerçekleştiren konsol tabanlı bir hesap makinesi uygulamasını içerir.
 
-def cikar(a, b):
-    return a - b
+---
 
-def carp(a, b):
-    return a * b
+## ✨ Projenin Amacı
 
-def bol(a, b):
-    if b == 0:
-        return "Sıfıra bölme hatası!"
-    return a / b
+Bu proje, bir yazılımcı adayı olarak Python'da:
+* Temel **fonksiyon** tanımlamayı.
+* Basit matematiksel **operasyonları** gerçekleştirmeyi.
+* Kullanıcıya **çıktı** vermeyi öğrenmek için yapılmıştır.
 
-print("Toplama sonucu:", topla(10, 5))
-print("Çıkarma sonucu:", cikar(10, 5))
+## 🛠 Kullanılan Teknolojiler
+
+* **Ana Dil:** Python 3.x
+
+## 🚀 Nasıl Çalıştırılır?
+
+1.  Bu depoyu yerel makinenize **klonlayın** (İleride Git komutlarını öğreneceksiniz).
+2.  Terminali açın ve projenin bulunduğu dizine gidin.
+3.  Aşağıdaki komutu çalıştırın:
+    ```bash
+    python calculator.py
+    ```
+
+## 🤝 Katkıda Bulunma
+
+Geri bildirimleriniz ve önerileriniz her zaman açıktır!
